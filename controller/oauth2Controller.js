@@ -45,7 +45,7 @@ class oauth2Controller {
 
     getOptions(){
         for (let i = 0; i < yapi.WEBCONFIG.plugins.length; i++) {
-            if (yapi.WEBCONFIG.plugins[i].name === 'gitlab') {
+            if (yapi.WEBCONFIG.plugins[i].name === 'gitlab2') {
                 return yapi.WEBCONFIG.plugins[i].options;
             }
         }
